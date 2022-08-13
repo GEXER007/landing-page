@@ -1,0 +1,42 @@
+
+body {
+    font-family: "Microsoft JhengHei UI",  serif;
+    padding: 0;
+    margin: 0;
+}
+/*Start of the header area*/
+.landing-area {
+    background-color: #1f2937;
+    width: 100%;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+}
+.burger {
+    display: flex;
+}
+
+article {
+    padding: 0;
+    margin: 0;
+}
+
+/*End of the header area.*/
+
