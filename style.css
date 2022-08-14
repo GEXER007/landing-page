@@ -1,42 +1,131 @@
-
 body {
-    font-family: "Microsoft JhengHei UI",  serif;
+    font-family: "Microsoft JhengHei UI", serif;
     padding: 0;
     margin: 0;
+    background-color: #2f3542;
 }
-/*Start of the header area*/
-.landing-area {
-    background-color: #1f2937;
+
+.section-1 {
+    background-color: #ced6e0;
     width: 100%;
     height: 70vh;
-    padding: 0;
-    margin: 0;
+}
+/* Navbar Start*/
+header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #2f3542;
+
 }
 
-h3 {
-    padding-left: 25px;
+a {
+    color: #ced6e0;
 }
+
+.logo {
+    width: 48px;
+    height: 48px;
+    padding-left: 50px;
+
+}
+
+
 
 ul {
-    list-style: none;
+ margin: 0 40px;
 }
 
 li {
-    display: inline;
+    display: inline-block;
+    padding: 0 10px;
 }
 
 a {
     text-decoration: none;
 }
-.burger {
-    display: flex;
-}
+
+/* Navbar End */
+
+/* Article Start */
 
 article {
-    padding: 0;
-    margin: 0;
+    display: flex;
+    margin: auto 25%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
 }
 
-/*End of the header area.*/
+#image {
+    border: solid 5px #2f3542;
+    padding: 0;
+    margin: 0;
+    width: 300px;
+    height: 300px;
+}
+
+#banana {
+
+}
+
+#about-banana {
+    width: 300px;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Section 1 Article End */
+
+.wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 25%;
+    color: #ced6e0;
+}
+
+.content {
+    border: solid 5px #ced6e0;
+    width: 150px;
+    height: 150px;
+    margin-top: 50px;
+}
+
+#banana-title {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.dogo {
+    width: 150px;
+    height: 150px;
+}
+
+#banana-title {
+    color: #ced6e0;
+}
+
+/* quote */
+
+.section-3 {
+    width: 100%;
+    height: 30vh;
+    background-color: #ced6e0;
+}
+
+.quote {
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+
+}
+
 
